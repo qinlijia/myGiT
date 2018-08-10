@@ -6,28 +6,27 @@
 demo [https://qinlijia.github.io/myGiT/]
 
 ### Markdown
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
+s (20 sloc)  580 Bytes
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>日历（带农历）</title>
+	<link rel="stylesheet" href="css/calendar.min.css">
+</head>
+<body>
+<h2>日历（带农历）</h2>
+<input type="text" id="dataShow">
+<script src='js/calendar.min.js'></script>
+<script>
+	//实例化
+    var t1date=(new lCalendar).init('#dataShow');
+</script>
+</body>
+</html>
 ### Jekyll Themes
 
 >>>>>>> eec2d86db237693c81c80a063d7a46644459747e
